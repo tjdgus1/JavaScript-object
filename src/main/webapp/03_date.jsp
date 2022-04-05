@@ -7,8 +7,8 @@
 <title>03_date.jsp</title>
 <script>asdfasdfasdfasdf
 	function check1(){
-		var today = new Date();
-		var y = today.getFullYear();
+		var today = new Date(); //현재 날짜를 가진 객체를 생성
+		var y = today.getFullYear(); //4개의 숫자로 된 연도 반환
 		var m = today.getMonth()+1; //0~11월
 		var d = today.getDate();
 		document.getElementById("ymd").innerText = y + "년 " + m + "월 " + d + "일";

@@ -27,7 +27,7 @@
 	<input type="button" onclick="check()" value="클릭"/>
 	
 	숫자입력<input type="text" id="num" size="6">
-	<input type="button" onClick="check2()" value="클릭"/><p>
+	<input type="button" onClick="check2()" value="클릭"/><p/>
 	
 	<input type="button" onclick="lotto1()" value="로또 번호"/>&nbsp;
 	<span id="lotto1"></span>
